@@ -28,7 +28,8 @@ $ bin/hello
 Hello, World!
 ```
 
-### To-Do
-* lib directory for generated libraries (First I need to learn how to generate libraries)
-* clang support
-* configure script
+You could also use clang, if you prefer, by running
+
+```
+$ make CC=clang++
+```
