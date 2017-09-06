@@ -1,0 +1,8 @@
+# Ignore build
+build
+
+# Ignore any executables
+bin/*
+
+# Don't ignore bin/.keep because we want bin folder to exist
+!bin/.keep
